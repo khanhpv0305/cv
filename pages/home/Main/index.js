@@ -14,7 +14,7 @@ export default props => <Main>
 
         My main skills: ReactJS, Mobile-First Web Design<br />
 
-        I especially like learning JavaScript (and it's libraries), TypeScript, find ways to optimize and increase performance<br />
+        I especially like learning JavaScript (and it&apos;s libraries), TypeScript, find ways to optimize and increase performance<br />
 
         I like (deep) talking and helping other people. I was excited by the colorful things.<br />
 
@@ -67,7 +67,7 @@ export default props => <Main>
                 ReactJS
 
                 <ul>
-                  <li>Solid understanding of React concepts: Virtual DOM, Component's lifecycle, PureComponent, Hooks, Context...</li>
+                  <li>Solid understanding of React concepts: Virtual DOM, Component&apos;s lifecycle, PureComponent, Hooks, Context...</li>
 
                   <li>Deep understanding about Redux</li>
 
