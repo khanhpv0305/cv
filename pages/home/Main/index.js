@@ -10,7 +10,7 @@ export default props => <Main>
 
     <Main.SkillSection>
       <Main.SkillSectionContentWrapper style={{ padding: '40px' }}>
-        Hi, I'm Pham Van Khanh, a Front-end developer with 2 year of experience.<br />
+        Hi, I&apos;m Pham Van Khanh, a Front-end developer with 2 year of experience.<br />
 
         My main skills: ReactJS, Mobile-First Web Design<br />
 
@@ -247,6 +247,10 @@ export default props => <Main>
             <ul className="mb-0">
               <li>
                 <a href="https://ngabds.com">NgaBDS (server-side render with NextJS)</a>
+              </li>
+
+              <li>
+                <a href="https://github.com/khanhpv0305/cv">This CV Git Repo</a>
               </li>
             </ul>
           </Main.SkillSectionContentWrapper>
