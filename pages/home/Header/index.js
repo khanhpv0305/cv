@@ -48,7 +48,7 @@ export default props => <Header>
           <Header.Item>
             <Header.ItemLabel>Address: </Header.ItemLabel>
 
-            685/80 Xô Viết Nghệ Tĩnh, Bình thạnh District, Hồ Chí Minh City
+            12 đường số 10, đường Lý Phục Man, phường Bình Thuân, Q7, TP. HCM
           </Header.Item>
         </Header.ItemGroup>
       </Col>

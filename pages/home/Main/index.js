@@ -10,15 +10,15 @@ export default props => <Main>
 
     <Main.SkillSection>
       <Main.SkillSectionContentWrapper style={{ padding: '40px' }}>
-        Hi, I&apos;m Pham Van Khanh, a Front-end developer with 2 year of experience.<br />
+        Hi, I&apos;m Pham Van Khanh, a Front-end developer with 3 years of experience.<br />
 
         My main skills: ReactJS, Mobile-First Web Design<br />
 
         I especially like learning JavaScript (and it&apos;s libraries), TypeScript, find ways to optimize and increase performance<br />
 
-        I like (deep) talking and helping other people. I was excited by the colorful things.<br />
+        I like (deep) talking and chilling with other people. I was excited by the colorful things.<br />
 
-        My hobbies: reading, playing guitar, sing (but bad)...
+        My hobbies: reading, playing guitar, singing (but not really good)...
       </Main.SkillSectionContentWrapper>
     </Main.SkillSection>
   </Main.SectionWrapper>
@@ -69,6 +69,8 @@ export default props => <Main>
                 <ul>
                   <li>Solid understanding of React concepts: Virtual DOM, Component&apos;s lifecycle, PureComponent, Hooks, Context...</li>
 
+                  <li>Strong knowledge of React hooks. Know how to increase the code readability and optimize the performance with hooks</li>
+
                   <li>Deep understanding about Redux</li>
 
                   <li>Deep understading about Immutability in Redux, React</li>
@@ -76,6 +78,10 @@ export default props => <Main>
                   <li>Have experience optimizing React performance (by using PureComponent, React.memo, memoization, restructuring components...)</li>
 
                   <li>ReactJS middlewares &amp; libralires: redux-thunk, redux-saga, styled-components, redux-form, formik, react-intl... </li>
+
+                  <li>Unit Testing with Jest, Enzyme</li>
+
+                  <li>e2e Testing with Nightwatch.js, Cucumber</li>
 
                   <li>Have experience in Server-side rendering with NextJS</li>
 
@@ -123,7 +129,9 @@ export default props => <Main>
 
               <Main.SkillSectionContentWrapper>
                 <ul className="mb-0">
-                  <li>NodeJS: ExpressJS, Strapi</li>
+                  <li>GraphQL: Apollo, graphql-yoga, Prisma</li>
+
+                  <li>NodeJS: ExpressJS, Strapi, Sails.js</li>
 
                   <li>PHP: Wordpress</li>
 
@@ -132,6 +140,23 @@ export default props => <Main>
               </Main.SkillSectionContentWrapper>
             </Main.SkillSection>
           </Col>
+
+          <Col xs={12}>
+            <Main.SkillSection>
+              <Main.SkillSectionHeading>DevOps</Main.SkillSectionHeading>
+
+              <Main.SkillSectionContentWrapper>
+                <ul className="mb-0">
+                  <li>Have experience on: AWS, GCP, Docker</li>
+
+                  <li>Web Server setting up: Nginx, Apache</li>
+
+                  <li>CI/CD tools: Jenkins, Github Actions</li>
+                </ul>
+              </Main.SkillSectionContentWrapper>
+            </Main.SkillSection>
+          </Col>
+
 
           <Col xs={12}>
             <Main.SkillSection>
@@ -163,13 +188,13 @@ export default props => <Main>
     <SectionHeading>Experiences</SectionHeading>
 
     <Row>
-      <Col xs={12}>
+      <Col xs={6}>
         <Main.SkillSection>
           <Main.SkillSectionHeading>Devinition</Main.SkillSectionHeading>
 
           <Main.SkillSectionContentWrapper>
             <ul className="mb-0">
-              <li>Time: 06/2018 - Present</li>
+              <li>Time: 06/2018 - 04/2019</li>
 
               <li>Role: Front-end developer</li>
 
@@ -184,6 +209,32 @@ export default props => <Main>
                   <li>ItJobs: IT jobs finder</li>
 
                   <li>Busjehuren: Car booking application</li>
+                </ul>
+              </li>
+            </ul>
+          </Main.SkillSectionContentWrapper>
+        </Main.SkillSection>
+      </Col>
+
+      <Col xs={6}>
+        <Main.SkillSection>
+          <Main.SkillSectionHeading>NFQ Asia</Main.SkillSectionHeading>
+
+          <Main.SkillSectionContentWrapper>
+            <ul className="mb-0">
+              <li>Time: 04/2019 - Present</li>
+
+              <li>Role: Front-end developer</li>
+
+              <li>Technologies: ReactJS</li>
+
+              <li>
+                Projects
+
+                <ul>
+                  <li>Heidelpay Banking Solution (main project): An application for managing debtors, creditors and money transferring</li>
+
+                  <li>Heidelpay Intelligence Platform: transactions managing</li>
                 </ul>
               </li>
             </ul>
@@ -246,7 +297,7 @@ export default props => <Main>
           <Main.SkillSectionContentWrapper>
             <ul className="mb-0">
               <li>
-                <a href="https://ngabds.com">NgaBDS (server-side render with NextJS)</a>
+                <a href="https://ngabds.com">NgaBDS (React Apollo, NextJs)</a>
               </li>
 
               <li>
