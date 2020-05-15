@@ -188,7 +188,7 @@ export default props => <Main>
     <SectionHeading>Experiences</SectionHeading>
 
     <Row>
-      <Col xs={6}>
+      <Col md={6}>
         <Main.SkillSection>
           <Main.SkillSectionHeading>Devinition</Main.SkillSectionHeading>
 
@@ -216,7 +216,7 @@ export default props => <Main>
         </Main.SkillSection>
       </Col>
 
-      <Col xs={6}>
+      <Col md={6}>
         <Main.SkillSection>
           <Main.SkillSectionHeading>NFQ Asia</Main.SkillSectionHeading>
 
