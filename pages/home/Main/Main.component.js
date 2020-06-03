@@ -6,7 +6,7 @@ import Main from './Main.styled'
 import SectionHeading from '~/components/SectionHeading'
 import PrintOnly from '~/components/PrintOnly'
 
-export default props => <Main>
+export default () => <Main>
   <Main.SectionWrapper>
     <SectionHeading>Summary</SectionHeading>
 
@@ -47,7 +47,7 @@ export default props => <Main>
 
                   <li>CSS preprocessor: SASS</li>
 
-                  <li>Solid understading of JavaScript concepts: Promise, async/await, generator function, DOM manipulation...</li>
+                  <li>Solid understanding of JavaScript concepts: Promise, async/await, generator function, DOM manipulation...</li>
 
                   <li>Have experience in TypeScript</li>
 
@@ -75,11 +75,11 @@ export default props => <Main>
 
                   <li>Deep understanding about Redux</li>
 
-                  <li>Deep understading about Immutability in Redux, React</li>
+                  <li>Deep understanding about Immutability in Redux, React</li>
 
                   <li>Have experience optimizing React performance (by using PureComponent, React.memo, memoization, restructuring components...)</li>
 
-                  <li>ReactJS middlewares &amp; libralires: redux-thunk, redux-saga, styled-components, redux-form, formik, react-intl... </li>
+                  <li>ReactJS middlewares &amp; libraries: redux-thunk, redux-saga, styled-components, redux-form, formik, react-intl... </li>
 
                   <li>Unit Testing with Jest, Enzyme</li>
 
@@ -115,7 +115,7 @@ export default props => <Main>
 
                   <li>Database design</li>
 
-                  <li>RestfulAPI</li>
+                  <li>RESTful API</li>
 
                   <li>Git</li>
 
@@ -194,6 +194,32 @@ export default props => <Main>
     <Row>
       <Col md={6}>
         <Main.SkillSection>
+          <Main.SkillSectionHeading>NFQ Asia</Main.SkillSectionHeading>
+
+          <Main.SkillSectionContentWrapper>
+            <ul className="mb-0">
+              <li>Time: 04/2019 - Present</li>
+
+              <li>Role: Front-end developer</li>
+
+              <li>Technologies: ReactJS</li>
+
+              <li>
+                Projects
+
+                <ul>
+                  <li>Heidelpay Banking Solution (main project): An application for managing debtors, creditors and money transferring</li>
+
+                  <li>Heidelpay Intelligence Platform: transactions managing</li>
+                </ul>
+              </li>
+            </ul>
+          </Main.SkillSectionContentWrapper>
+        </Main.SkillSection>
+      </Col>
+
+      <Col md={6}>
+        <Main.SkillSection>
           <Main.SkillSectionHeading>Devinition</Main.SkillSectionHeading>
 
           <Main.SkillSectionContentWrapper>
@@ -219,32 +245,6 @@ export default props => <Main>
           </Main.SkillSectionContentWrapper>
         </Main.SkillSection>
       </Col>
-
-      <Col md={6}>
-        <Main.SkillSection>
-          <Main.SkillSectionHeading>NFQ Asia</Main.SkillSectionHeading>
-
-          <Main.SkillSectionContentWrapper>
-            <ul className="mb-0">
-              <li>Time: 04/2019 - Present</li>
-
-              <li>Role: Front-end developer</li>
-
-              <li>Technologies: ReactJS</li>
-
-              <li>
-                Projects
-
-                <ul>
-                  <li>Heidelpay Banking Solution (main project): An application for managing debtors, creditors and money transferring</li>
-
-                  <li>Heidelpay Intelligence Platform: transactions managing</li>
-                </ul>
-              </li>
-            </ul>
-          </Main.SkillSectionContentWrapper>
-        </Main.SkillSection>
-      </Col>
     </Row>
   </Main.SectionWrapper>
 
@@ -254,7 +254,7 @@ export default props => <Main>
     <Row>
       <Col xs={12}>
         <Main.SkillSection>
-          <Main.SkillSectionHeading>University of Information Technology - VNUHCM</Main.SkillSectionHeading>
+          <Main.SkillSectionHeading>University of Information Technology - VNU-HCM</Main.SkillSectionHeading>
 
           <Main.SkillSectionContentWrapper>
             <ul className="mb-0">
@@ -286,6 +286,14 @@ export default props => <Main>
 
               <li>
                 <a href="https://github.com/khanhpv0305/cv">This CV Git Repo</a>
+              </li>
+
+              <li>
+                <a href="http://publicspeaking.ayp.vn/">AYP Public speaking</a>	
+              </li>
+
+              <li>
+                <a href="http://athehospitality.edu.vn">Athe Hospitality</a>	
               </li>
             </ul>
           </Main.SkillSectionContentWrapper>
