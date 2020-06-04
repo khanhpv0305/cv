@@ -5,6 +5,7 @@ import {Row, Col} from 'reactstrap'
 import Main from './Main.styled'
 import SectionHeading from '~/components/SectionHeading'
 import PrintOnly from '~/components/PrintOnly'
+import SideProjects from '../SideProjects'
 
 export default () => <Main>
   <Main.SectionWrapper>
@@ -271,34 +272,27 @@ export default () => <Main>
   <Main.SectionWrapper>
     <SectionHeading>Side projects</SectionHeading>
 
-    <Row>
-      <Col md={6}>
-        <Main.SkillSection>
-          <Main.SkillSectionHeading>ReactJS</Main.SkillSectionHeading>
+    {/* <Main.SkillSectionContentWrapper>
+      <ul className="mb-0">
+        <li>
+          <a href="https://ngabds.com">
+            NgaBDS - Real estate website (React Apollo, NextJs)<PrintOnly> - ngabds.com</PrintOnly>
+          </a>
+        </li>
 
-          <Main.SkillSectionContentWrapper>
-            <ul className="mb-0">
-              <li>
-                <a href="https://ngabds.com">
-                  NgaBDS - Real estate website (React Apollo, NextJs)<PrintOnly> - ngabds.com</PrintOnly>
-                </a>
-              </li>
+        <li>
+          <a href="https://github.com/khanhpv0305/cv">This CV Git Repo</a>
+        </li>
 
-              <li>
-                <a href="https://github.com/khanhpv0305/cv">This CV Git Repo</a>
-              </li>
+        <li>
+          <a href="http://publicspeaking.ayp.vn/">AYP Public speaking</a>	
+        </li>
 
-              <li>
-                <a href="http://publicspeaking.ayp.vn/">AYP Public speaking</a>	
-              </li>
-
-              <li>
-                <a href="http://athehospitality.edu.vn">Athe Hospitality</a>	
-              </li>
-            </ul>
-          </Main.SkillSectionContentWrapper>
-        </Main.SkillSection>
-      </Col>
-    </Row>
+        <li>
+          <a href="http://athehospitality.edu.vn">Athe Hospitality</a>	
+        </li>
+      </ul>
+    </Main.SkillSectionContentWrapper> */}
+    <SideProjects />
   </Main.SectionWrapper>
 </Main>
