@@ -272,27 +272,6 @@ export default () => <Main>
   <Main.SectionWrapper>
     <SectionHeading>Side projects</SectionHeading>
 
-    {/* <Main.SkillSectionContentWrapper>
-      <ul className="mb-0">
-        <li>
-          <a href="https://ngabds.com">
-            NgaBDS - Real estate website (React Apollo, NextJs)<PrintOnly> - ngabds.com</PrintOnly>
-          </a>
-        </li>
-
-        <li>
-          <a href="https://github.com/khanhpv0305/cv">This CV Git Repo</a>
-        </li>
-
-        <li>
-          <a href="http://publicspeaking.ayp.vn/">AYP Public speaking</a>	
-        </li>
-
-        <li>
-          <a href="http://athehospitality.edu.vn">Athe Hospitality</a>	
-        </li>
-      </ul>
-    </Main.SkillSectionContentWrapper> */}
     <SideProjects />
   </Main.SectionWrapper>
 </Main>
