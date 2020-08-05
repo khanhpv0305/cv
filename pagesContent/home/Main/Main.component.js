@@ -4,8 +4,8 @@ import {Row, Col} from 'reactstrap'
 // Components
 import Main from './Main.styled'
 import SectionHeading from '~/components/SectionHeading'
-import PrintOnly from '~/components/PrintOnly'
 import SideProjects from '../SideProjects'
+import PageBreak from '~/components/PageBreak'
 
 export default () => <Main>
   <Main.SectionWrapper>
@@ -25,6 +25,8 @@ export default () => <Main>
       </Main.SkillSectionContentWrapper>
     </Main.SkillSection>
   </Main.SectionWrapper>
+
+  <PageBreak />
 
   <Main.SectionWrapper>
     <SectionHeading>Skills</SectionHeading>
@@ -188,6 +190,8 @@ export default () => <Main>
       </Col>
     </Row>
   </Main.SectionWrapper>
+
+  <PageBreak />
 
   <Main.SectionWrapper>
     <SectionHeading>Experiences</SectionHeading>
