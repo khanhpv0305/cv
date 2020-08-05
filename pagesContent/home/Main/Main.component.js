@@ -197,13 +197,29 @@ export default () => <Main>
     <SectionHeading>Experiences</SectionHeading>
 
     <Row>
+      <Col xs={12}>
+        <Main.SkillSection>
+          <Main.SkillSectionHeading>LINE Corp</Main.SkillSectionHeading>
+
+          <Main.SkillSectionContentWrapper>
+            <ul className="mb-0">
+              <li>Time: 07/2019 - Present</li>
+
+              <li>Role: Front-end developer</li>
+
+              <li>Technologies: ReactJS, VueJS</li>
+            </ul>
+          </Main.SkillSectionContentWrapper>
+        </Main.SkillSection>
+      </Col>
+
       <Col md={6}>
         <Main.SkillSection>
           <Main.SkillSectionHeading>NFQ Asia</Main.SkillSectionHeading>
 
           <Main.SkillSectionContentWrapper>
             <ul className="mb-0">
-              <li>Time: 04/2019 - Present</li>
+              <li>Time: 04/2019 - 07/2020</li>
 
               <li>Role: Front-end developer</li>
 
