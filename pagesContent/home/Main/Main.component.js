@@ -7,7 +7,7 @@ import SectionHeading from '~/components/SectionHeading'
 import SideProjects from '../SideProjects'
 import PageBreak from '~/components/PageBreak'
 
-export default () => <Main>
+const MainComponent = () => <Main>
   <Main.SectionWrapper>
     <SectionHeading>Summary</SectionHeading>
 
@@ -295,3 +295,5 @@ export default () => <Main>
     <SideProjects />
   </Main.SectionWrapper>
 </Main>
+
+export default MainComponent

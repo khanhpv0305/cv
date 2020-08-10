@@ -31,16 +31,23 @@ Header.Avatar = styled.div`
   `}
 `
 
-Header.Name = styled.div`
+Header.Name = styled.h1`
   text-align: center;
   font-size: 2.5rem;
   font-weight: 500;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 
   ${down('md')} {
     font-size: 2rem;
   }
+`
+
+Header.Title = styled.h2`
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
 `
 
 Header.WItems = styled.div`

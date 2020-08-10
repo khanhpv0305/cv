@@ -1,6 +1,5 @@
 import React from 'react'
 import {Row, Col} from 'reactstrap'
-import Link from 'next/link'
 
 // Components
 import Header from './Header.styled'
@@ -12,6 +11,8 @@ const HeaderComponent = () => (
     </Header.WAvatar>
 
     <Header.Name>PHẠM VĂN KHÁNH</Header.Name>
+
+    <Header.Title>Front-end Developer</Header.Title>
 
     <Header.WItems>
       <Row>
@@ -26,9 +27,7 @@ const HeaderComponent = () => (
             <Header.Item>
               <Header.ItemLabel>Phone: </Header.ItemLabel>
 
-              <Link href='tel:0347719454'>
-                <a>034 7719 454</a>
-              </Link>
+              <a href='tel:0347719454'>034 7719 454</a>
             </Header.Item>
           </Header.ItemGroup>
 
@@ -36,17 +35,13 @@ const HeaderComponent = () => (
             <Header.Item>
               <Header.ItemLabel>Email: </Header.ItemLabel>
 
-              <Link href='mailto:vankhanhpf96@gmail.com'>
-                <a>vankhanhpf96@gmail.com</a>
-              </Link>
+              <a href='mailto:vankhanhpf96@gmail.com'>vankhanhpf96@gmail.com</a>
             </Header.Item>
 
             <Header.Item>
               <Header.ItemLabel>Facebook: </Header.ItemLabel>
 
-              <Link href="https://www.facebook.com/KhanhPV0305">
-                <a>/KhanhPV0305</a>
-              </Link>
+              <a href='https://www.facebook.com/KhanhPV0305'>/KhanhPV0305</a>
             </Header.Item>
           </Header.ItemGroup>
         </Col>
