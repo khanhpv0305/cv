@@ -203,7 +203,7 @@ const MainComponent = () => <Main>
 
           <Main.SkillSectionContentWrapper>
             <ul className="mb-0">
-              <li>Time: 07/2019 - Present</li>
+              <li>Time: 07/2020 - Present</li>
 
               <li>Role: Front-end developer</li>
 
