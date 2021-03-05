@@ -13,7 +13,7 @@ const MainComponent = () => <Main>
 
     <Main.SkillSection>
       <Main.SkillSectionContentWrapper style={{ padding: '40px' }}>
-        Hi, I&apos;m Pham Van Khanh, a Front-end developer with 3 years of experience.<br />
+        Hi, I&apos;m Pham Van Khanh, a Front-end developer with 4 years of experience.<br />
 
         My main skills: ReactJS, Mobile-First Web Design<br />
 
